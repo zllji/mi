@@ -102,11 +102,6 @@ a {
 .header {
     height: 100px;
 }
-.header::before , .header::after {
-    display: table;
-    content: "";
-    clear: both;
-}
 
 .header-logo {
     float: left;
