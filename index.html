@@ -7,6 +7,7 @@
     <!-- icon：用来显示在标题前面的logo -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
 </head>
 <body>
     <div class="topbar">
@@ -23,7 +24,7 @@
                 <a href="">政企服务</a><span>|</span>
                 <a href="">Select Region</a>
             </div>
-            <div class="topbar-cart"><a href="">购物车<span>（0）</span></a></div>
+            <div class="topbar-cart"><a href=""><i class="iconfont">&#xe60c;</i> 购物车<span>（0）</span></a></div>
             <div class="topbar-info .clearfix">
                 <a href="">登录</a><span>|</span>
                 <a href="">注册</a><span>|</span>
@@ -74,7 +75,14 @@
                     </li> 
                 </ul>
             </div>
-            <div class="header-search"></div>
+            <div class="header-search">
+                <form action="" class="search-form">
+                    <input type="search" name="keyword" class="search-text">
+
+                    <!-- 引用iconfont -->
+                    <input type="submit" value="&#xe616;" class="search-btn iconfont">
+                </form>
+            </div>
         </div>
     </div>
 </body>

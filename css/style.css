@@ -77,6 +77,11 @@ a {
     margin-left: -4px;
     font-size: 12px;
 }
+.topbar-cart i {
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 4px;
+}
 .topbar-info {
     margin-right: 15px;
 }
@@ -164,4 +169,41 @@ a {
     height: 50px;
     margin-top: 25px;
     border: 1px solid black;
+}
+.header-search .search-form {
+    position: relative;
+    display: block;
+    width: 296px;
+    height: 50px;
+}
+.header-search .search-form .search-text {
+    position: absolute;
+    top:0;
+    right:51px;
+    display: block;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e0e0e0;
+
+    /* 祛除search框移动上去的蓝色边框 */
+    outline: 0;
+}
+.header-search .search-form .search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+}
+.header-search .search-form .search-btn:hover {
+    background-color: #ff6700;
+    color: #fff;
 }
